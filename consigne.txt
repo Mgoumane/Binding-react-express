@@ -1,0 +1,19 @@
+## Instructions
+
+Le but est de créer un formulaire qui affiche tou.te.s les étudiant.e.s après les avoir enregistré.e.s.
+
+## Etape 1: Routes
+
+- Créer une variable `students` qui contiendra la liste de tout vos étudiants
+- Créer une route `get` vers `/students` qui vous retournera la liste de tout vos étudiants
+- Créer une route `post` vers `/students` qui prendra le nom de l'étudiant dans le body de la requete et qui l'ajoutera à votre variable `students`
+
+## Etape 2: Postman
+
+- Testez vos deux routes via postman
+
+## Etape 3 : React
+
+- Créer un formulaire qui n’a qu’un input et qui envoie le prénom d’un.e étudiant.e sur la route `POST /students`
+- Ajouter le nom de cet.te étudiant.e à la variable `students`
+- Cette route affichera un message de confirmation d’ajout avec un lien pour retourner sur la page d’accueil
